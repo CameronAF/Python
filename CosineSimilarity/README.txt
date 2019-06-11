@@ -7,7 +7,7 @@ REQUIRMENTS:
  
 SETUP:
 Downloading the proper library
- 1) Open C0mmand Prompt
+ 1) Open Command Prompt
 	1. Navigate to the location of the pip folder in command prompt.
         - example: cd C:\Python\Scripts
     2. Enter command to install NLTK: pip3 install nltk
