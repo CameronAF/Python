@@ -5,3 +5,5 @@ This solution Contains the following projects:
      - Calculate Cosine Similarities of document-term matrices 
  2. ClusteringAccuracy
 	 - Calculates the accuracy of clustering given clusters and samples
+ 3. MLP
+     - Multi-Layer Perceptron Neural Network from Keras using Tensorflow
