@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Simple", "Simple\Simple.pyproj", "{174A4B9F-974D-4E23-8492-673BCC90B943}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Sparse", "Sparse\Sparse.pyproj", "{3276D604-020C-4833-A48E-6A28309E56F5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FullyConnected", "FullyConnected\FullyConnected.pyproj", "{BDBAD9E4-FED9-477A-9CD7-F571BFEFFCF4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Convolutional", "Convolutional\Convolutional.pyproj", "{376B637B-F664-4740-A528-BCB01CE8BF4B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Denoising", "Denoising\Denoising.pyproj", "{CB6FD4B1-CC25-49A8-B2D9-589E24CAFFCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{174A4B9F-974D-4E23-8492-673BCC90B943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174A4B9F-974D-4E23-8492-673BCC90B943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3276D604-020C-4833-A48E-6A28309E56F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3276D604-020C-4833-A48E-6A28309E56F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBAD9E4-FED9-477A-9CD7-F571BFEFFCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBAD9E4-FED9-477A-9CD7-F571BFEFFCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376B637B-F664-4740-A528-BCB01CE8BF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376B637B-F664-4740-A528-BCB01CE8BF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6FD4B1-CC25-49A8-B2D9-589E24CAFFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6FD4B1-CC25-49A8-B2D9-589E24CAFFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D8FC1F0-224C-4785-A037-47EF078648B2}
+	EndGlobalSection
+EndGlobal

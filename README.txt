@@ -1,11 +1,13 @@
 This directory contains multiple Python project created in Visual Studios 
 
 This solution Contains the following projects:
- 1.	CosineSimilarity 
+ 1. AutoEncoders (5 projects)
+     - Auto-Encoders from Keras using Tensorflow Backend
+ 2.	CosineSimilarity 
      - Calculate Cosine Similarities of document-term matrices 
- 2. CNN
+ 3. CNN
      - Convolutional Neural Network from Keras using Tensorflow
- 3. ClusteringAccuracy
+ 4. ClusteringAccuracy
 	 - Calculates the accuracy of clustering given clusters and samples
- 4. MLP
+ 5. MLP
      - Multi-Layer Perceptron Neural Network from Keras using Tensorflow
