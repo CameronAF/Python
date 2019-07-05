@@ -11,3 +11,5 @@ This solution Contains the following projects:
      - Calculates the accuracy of clustering given clusters and samples
  5. MLP
      - Multi-Layer Perceptron Neural Network from Keras using Tensorflow
+ 5. Python101
+     - Multiple project that shows the basics of Python syntax.
