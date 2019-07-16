@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Simple", "LinearRegression\Simple.pyproj", "{AD199234-DF23-4BF8-A1F8-5C99625713E4}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Simple", "Simple\Simple.pyproj", "{AD199234-DF23-4BF8-A1F8-5C99625713E4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Multiple", "Multiple\Multiple.pyproj", "{D03A405A-7396-45F0-A8AC-01BDAB3B7C92}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DummyVariables", "DummyVariables\DummyVariables.pyproj", "{2E275174-1364-46AE-A10E-CED9ED68333C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AD199234-DF23-4BF8-A1F8-5C99625713E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD199234-DF23-4BF8-A1F8-5C99625713E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03A405A-7396-45F0-A8AC-01BDAB3B7C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03A405A-7396-45F0-A8AC-01BDAB3B7C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E275174-1364-46AE-A10E-CED9ED68333C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E275174-1364-46AE-A10E-CED9ED68333C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
