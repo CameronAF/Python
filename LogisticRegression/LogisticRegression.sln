@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Basics", "Basics\Basics.pyproj", "{FD6E1A21-73A5-4FBA-92AB-897BD1A1202E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BankData", "BankData\BankData.pyproj", "{A1AC3BA6-6FAB-45B8-A933-EC9123A75158}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CollegeAdmissions", "CollegeAdmissions\CollegeAdmissions.pyproj", "{48DAE735-202A-40F7-B7B8-7FFB830EE471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD6E1A21-73A5-4FBA-92AB-897BD1A1202E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6E1A21-73A5-4FBA-92AB-897BD1A1202E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AC3BA6-6FAB-45B8-A933-EC9123A75158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AC3BA6-6FAB-45B8-A933-EC9123A75158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DAE735-202A-40F7-B7B8-7FFB830EE471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DAE735-202A-40F7-B7B8-7FFB830EE471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1BA9AC5-6445-479A-B5EF-07C366225FCE}
+	EndGlobalSection
+EndGlobal
