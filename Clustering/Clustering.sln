@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Simple_KMeans", "Simple\Simple_KMeans.pyproj", "{912F2125-CB31-4CFA-9B00-28575DC39134}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KMeans_Catagorical", "KMeans_Catagorical\KMeans_Catagorical.pyproj", "{76FB2D82-DE4D-4274-B2D6-0AD785B7583B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MarketSegmentation", "MarketSegmentation\MarketSegmentation.pyproj", "{48D4909F-47AD-492A-BB38-198F08BC0AA6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IrisFlowerData", "IrisFlowerData\IrisFlowerData.pyproj", "{AA4F9080-C2ED-402E-9C8D-601A357BB916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{912F2125-CB31-4CFA-9B00-28575DC39134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912F2125-CB31-4CFA-9B00-28575DC39134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FB2D82-DE4D-4274-B2D6-0AD785B7583B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FB2D82-DE4D-4274-B2D6-0AD785B7583B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D4909F-47AD-492A-BB38-198F08BC0AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D4909F-47AD-492A-BB38-198F08BC0AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4F9080-C2ED-402E-9C8D-601A357BB916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4F9080-C2ED-402E-9C8D-601A357BB916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51EFE736-C38F-4B07-BC2C-4DB1EF69017B}
+	EndGlobalSection
+EndGlobal
