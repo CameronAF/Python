@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MarketSegmentation", "Marke
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IrisFlowerData", "IrisFlowerData\IrisFlowerData.pyproj", "{AA4F9080-C2ED-402E-9C8D-601A357BB916}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Dendrogram", "Dendrogram\Dendrogram.pyproj", "{4FE3EC9F-696D-4A85-919F-42C17075854A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,8 @@ Global
 		{48D4909F-47AD-492A-BB38-198F08BC0AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA4F9080-C2ED-402E-9C8D-601A357BB916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA4F9080-C2ED-402E-9C8D-601A357BB916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE3EC9F-696D-4A85-919F-42C17075854A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE3EC9F-696D-4A85-919F-42C17075854A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

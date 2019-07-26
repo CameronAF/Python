@@ -1,19 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>22ab970c-428b-405e-954f-337878b667a2</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>ClusteringAccuracy.py</StartupFile>
+    <ProjectGuid>4fe3ec9f-696d-4a85-919f-42c17075854a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Dendrogram.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>ClusteringAccuracy</Name>
-    <RootNamespace>PythonApplication1</RootNamespace>
-    <InterpreterId>Global|PythonCore|3.7-32</InterpreterId>
+    <Name>Dendrogram</Name>
+    <RootNamespace>Dendrogram</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-32</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,14 +22,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ClusteringAccuracy.py" />
+    <Compile Include="Dendrogram.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.7-32" />
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-32" />
   </ItemGroup>
-  <PropertyGroup>
-    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
-  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
        the BeforeBuild and AfterBuild targets below. -->
@@ -40,5 +36,4 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
