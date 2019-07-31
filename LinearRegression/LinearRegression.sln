@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Multiple", "Multiple\Multip
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DummyVariables", "DummyVariables\DummyVariables.pyproj", "{2E275174-1364-46AE-A10E-CED9ED68333C}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RandomData", "RandomData\RandomData.pyproj", "{B41509E6-6140-41B8-8EC0-8DC86F8FA601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{D03A405A-7396-45F0-A8AC-01BDAB3B7C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E275174-1364-46AE-A10E-CED9ED68333C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E275174-1364-46AE-A10E-CED9ED68333C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41509E6-6140-41B8-8EC0-8DC86F8FA601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41509E6-6140-41B8-8EC0-8DC86F8FA601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
