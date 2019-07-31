@@ -11,7 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>RandomData</Name>
     <RootNamespace>RandomData</RootNamespace>
-    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-32</InterpreterId>
+    <InterpreterId>
+    </InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,9 +24,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="RandomData.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-32" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -3,15 +3,16 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>648dcb58-d694-43d4-8459-c2b579c11b13</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Basic.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>LinearRegression.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Basic</Name>
+    <Name>LinearRegression</Name>
     <RootNamespace>Basic</RootNamespace>
-    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-32</InterpreterId>
+    <InterpreterId>Global|VisualStudio|python3.7_TF2.0</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +23,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Basic.py" />
+    <Compile Include="LinearRegression.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-32" />
+    <InterpreterReference Include="Global|VisualStudio|python3.7_TF2.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
